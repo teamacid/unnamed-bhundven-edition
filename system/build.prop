@@ -53,7 +53,7 @@ ro.sf.lcd_density=240
 persist.service.usb.setting=3
 
 # Update TimeZone
-persist.sys.timezone=America/New_York
+persist.sys.timezone=America/Los_Angeles
 
 #
 # ADDITIONAL_BUILD_PROPERTIES
@@ -101,7 +101,7 @@ video.accelerate.hw=1
 debug.sf.hw=1
 ro.media.enc.jpeg.quality=100
 
-#Sony Bravia Engine Service
+# Sony Bravia Engine Service
 ro.service.swiqi.supported=true
 persist.service.swiqi.enable=1
 
@@ -109,7 +109,12 @@ persist.service.swiqi.enable=1
 persist.service.adb.enable=1
 
 # Mod Version
-ro.modversion=
+ro.modversion=unnamed - bhundven edition
 
 # Rom Manager Info
-ro.rommanager.developerid=TeamNerd
+ro.rommanager.developerid=TeamAcid
+
+# Goo.im Info
+ro.goo.developerid=bhundven
+ro.goo.rom=unnamed-bhundven-edition
+ro.goo.version=1
