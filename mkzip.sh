@@ -9,7 +9,7 @@ echo "Done!"
 
 echo -ne "Creating new zip file... "
 zip -q -r -9 $output_file data META-INF system tools updates
-if [ $? -eq 0 ]; then
+if [ $? -ne 0 ]; then
   echo "Zip failed!"
   exit 1
 fi
